@@ -1,0 +1,52 @@
+.student-layout {
+  min-height: 100vh;
+  display: flex;
+  background-color: #f5f7fa;
+}
+
+.sidebar {
+  width: 240px;
+  min-height: 100vh;
+  background-color: #0eb48d;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  color: rgb(197, 13, 10);
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar nav a {
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.sidebar nav a:hover {
+  background-color: #06bd5b;
+}
+
+.logout-button {
+  margin-top: auto;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ef4444;
+  color: white;
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px;
+}

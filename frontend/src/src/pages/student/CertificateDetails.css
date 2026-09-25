@@ -1,0 +1,133 @@
+.certificate-details {
+  max-width: 900px;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #2563eb;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.details-header {
+  margin-bottom: 30px;
+}
+
+.details-header h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.details-header p {
+  color: #6b7280;
+}
+
+
+/* Cards */
+
+.details-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.details-card h2 {
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+
+/* Required documents */
+
+.document-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.document {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 12px;
+  background-color: #f9fafb;
+  border-radius: 6px;
+}
+
+.document span {
+  font-size: 20px;
+}
+
+
+/* Upload */
+
+.upload-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.upload-info button {
+  padding: 8px 14px;
+  border: 1px solid #2563eb;
+  border-radius: 6px;
+
+  background-color: white;
+  color: #2563eb;
+
+  cursor: pointer;
+}
+
+
+/* Physical documents */
+
+.info-text {
+  color: #6b7280;
+  margin-bottom: 15px;
+}
+
+.physical-document {
+  padding: 12px;
+  background-color: #f9fafb;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+
+/* Office */
+
+.office-info p {
+  margin-bottom: 10px;
+}
+
+
+/* Apply */
+
+.apply-section {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+
+.apply-button {
+  padding: 13px 24px;
+  border: none;
+  border-radius: 7px;
+
+  background-color: #2563eb;
+  color: white;
+
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.apply-button:hover {
+  background-color: #1d4ed8;
+}

@@ -1,0 +1,94 @@
+.certificates-header {
+  margin-bottom: 30px;
+}
+
+.certificates-header h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.certificates-header p {
+  color: #6b7280;
+}
+
+
+/* Search */
+
+.certificate-search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.certificate-search input {
+  flex: 1;
+  padding: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.certificate-search input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.certificate-search button {
+  padding: 0 22px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* Certificate list */
+
+.certificates-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.certificate-item {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.certificate-item h2 {
+  font-size: 19px;
+  margin-bottom: 8px;
+}
+
+.certificate-item p {
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.certificate-item span {
+  font-size: 14px;
+  color: #374151;
+}
+
+.certificate-item button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+
+  background-color: #2563eb;
+  color: white;
+
+  cursor: pointer;
+}
+
+.certificate-item button:hover {
+  background-color: #1d4ed8;
+}
